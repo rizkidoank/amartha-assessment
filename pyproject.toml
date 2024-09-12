@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "amartha-assessment"
+version = "0.1.0"
+description = ""
+authors = ["Rizki <rizki@rizkidoank.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+google-cloud-storage = "^2.18.2"
+fpdf2 = "^2.7.9"
+click = "^8.1.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+scanner = "amartha_assessment.cli:cli"
