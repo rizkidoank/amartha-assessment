@@ -26,3 +26,9 @@ paginate: true
     - Identifies objects in a GCS bucket that are publicly visible.
     - Email reporting of both
 - The tools are lightweight and expandable
+<<<<<<< HEAD
+=======
+    - We can add more resources scanner or reports
+    - We can potentially develop this into more intuitive experiences (i.e: web app)
+- This tools will bring the business to achieve a secure environments in cloud platform.
+>>>>>>> e88ea3f (update slide.md)
